@@ -1,1 +1,10 @@
-# python4
+nest=[[1,2],[3,4],[5,6]]
+print(nest)
+print(nest[0])
+print(nest[1][0])
+nest[1]=[200]
+print(nest)
+nest[2][1]=10
+print(nest)
+nest.append([7,8])
+print(nest)
